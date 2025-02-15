@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Quieres ser mi cita?</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            background-color: #ffebf0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .sobre {
+            position: relative;
+            width: 300px;
+            height: 200px;
+            background: pink;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .sobre::after {
+            content: "❤";
+            font-size: 50px;
+            position: absolute;
+            top: -30px;
+            color: red;
+        }
+        .botones {
+            margin-top: 20px;
+        }
+        button {
+            background-color: #ff4081;
+            color: white;
+            padding: 10px 20px;
+            margin: 10px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #d81b60;
+        }
+        img {
+            width: 200px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="sobre">
+        <h2>¿Quieres ser mi cita?</h2>
+    </div>
+    <div class="botones">
+        <button onclick="location.href='felicitacion.html'">Claro que sí</button>
+        <button onclick="location.href='error1.html'">Ni de coña</button>
+    </div>
+    <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" alt="Gatito gracioso">
+</body>
+</html>
