@@ -6,6 +6,22 @@
     <title>No hay escapatoria 😆</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+<script>
+    function createHeart() {
+        const heart = document.createElement("div");
+        heart.classList.add("heart");
+        heart.style.left = Math.random() * 100 + "vw";
+        heart.style.animationDuration = Math.random() * 2 + 3 + "s";
+        document.body.appendChild(heart);
+
+        setTimeout(() => {
+            heart.remove();
+        }, 5000);
+    }
+
+    setInterval(createHeart, 500);
+</script>
+
 <body>
     <div class="container">
         <p>Te lo voy a poner más fácil:</p>
