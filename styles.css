@@ -47,17 +47,5 @@ button:hover {
     margin-top: 20px;
     width: 150px;
 }
-img {
-    max-width: 100%; /* Evita que la imagen sea más grande que su contenedor */
-    height: auto; /* Mantiene la proporción */
-    display: block;
-    margin: 0 auto; /* Centra la imagen */
-}
 
-.photos img {
-    width: 300px; /* Ajusta el tamaño específico para las fotos en felicitacion.html */
-    height: auto; 
-    border-radius: 10px; /* Bordes redondeados opcionales */
-    margin: 10px;
-}
 
