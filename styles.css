@@ -70,5 +70,35 @@ body {
     0% { opacity: 0; }
     100% { opacity: 1; }
 }
+button {
+    background: #ff5f6d; /* Bonito color rosado */
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 18px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    background: #ffc371;
+    transform: scale(1.1);
+}
+@keyframes float {
+    0% { transform: translateY(0) scale(1); opacity: 1; }
+    50% { opacity: 0.8; }
+    100% { transform: translateY(-100vh) scale(0.5); opacity: 0; }
+}
+
+.heart {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: red;
+    clip-path: polygon(50% 0%, 100% 30%, 75% 100%, 50% 80%, 25% 100%, 0% 30%);
+    animation: float 5s linear infinite;
+}
+
 
 
