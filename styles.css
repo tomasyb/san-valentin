@@ -100,5 +100,18 @@ button:hover {
     animation: float 5s linear infinite;
 }
 
+.gif-container {
+    text-align: center; /* Centra el GIF horizontalmente */
+    margin-top: 20px; /* Espacio entre el texto y el GIF */
+}
+
+.gif-container img {
+    width: 200px; /* Ajusta el tamaño del GIF */
+    height: auto; /* Mantiene la proporción */
+    display: block;
+    margin: 0 auto; /* Asegura que esté centrado */
+}
+
+
 
 
